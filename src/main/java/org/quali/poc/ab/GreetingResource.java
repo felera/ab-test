@@ -15,7 +15,7 @@ public class GreetingResource {
     public String hello() {
         InetAddress ip = null;
         String hostname = "";
-        String version = "1";
+        String version = "2";
         try {
             ip = InetAddress.getLocalHost();
             hostname = ip.getHostName();
